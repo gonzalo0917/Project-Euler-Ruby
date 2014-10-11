@@ -15,7 +15,7 @@ class ProjectEuler
 
   def solution
 
-    limit = 19
+    limit = 1
     val = 0
     j = 0
     fibonacci = [1]
