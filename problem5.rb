@@ -6,6 +6,7 @@
 divided by each of the numbers from 1 to 10 without any remainder.
 
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+232792560
 
 =end
 
@@ -18,14 +19,13 @@ class ProjectEuler
     
     while 1 do
       number = number + 1
-      puts number
+      
       for j in (1...21)
 
         if number % j == 0
           puts j
           do_break = true
         else
-          puts "-------------"
           do_break = false
           break
         end
